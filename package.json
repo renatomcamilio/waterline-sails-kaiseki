@@ -1,0 +1,41 @@
+{
+  "name": "waterline-sails-kaiseki",
+  "version": "0.10.0",
+  "description": "waterline-sails-kaiseki adapter for Sails / Waterline",
+  "main": "adapter.js",
+  "scripts": {
+    "test": "node test/integration/runner -R spec -b"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "sails-kaiseki",
+    "adapter",
+    "sails",
+    "waterline",
+    "sails.js",
+    "plugin"
+  ],
+  "author": "Renato Camilio <renatomcamilio@gmail.com>",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "kaiseki": "^0.5.6",
+    "lodash": "^3.8.0"
+  },
+  "devDependencies": {
+    "waterline-adapter-tests": "~0.10.0",
+    "mocha": "*",
+    "captains-log": "~0.11.0"
+  },
+  "waterlineAdapter": {
+    "type": "sails-kaiseki",
+    "interfaces": [
+      "semantic",
+      "queryable"
+    ],
+    "waterlineVersion": "~0.10.0"
+  }
+}
