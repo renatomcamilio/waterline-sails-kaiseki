@@ -12,6 +12,7 @@
   },
   "keywords": [
     "sails-kaiseki",
+    "sails-parse",
     "adapter",
     "sails",
     "waterline",
